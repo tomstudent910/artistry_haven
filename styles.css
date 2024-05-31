@@ -1,0 +1,75 @@
+body{
+    font-family: Tahoma;
+    background-color: lightgray;
+    margin: 0;
+    padding: 0;
+}
+
+main p{
+    font-size: 18px;
+}
+
+header{
+    background-color: bisque;
+    text-align: center;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 20px 0;
+    z-index: 1;
+}
+
+.banner{
+    position: relative;
+}
+.banner .welcome{
+    background-color: bisque;
+    padding: 5px;
+    position:absolute;
+    bottom: 10%;
+}
+
+nav{
+    position: sticky;
+    background-color: aliceblue;
+    top: 122px;    
+}
+nav ul{
+
+    white-space: nowrap;
+    max-width: 1200px;
+    margin: 0 auto;
+    text-align: center;
+}
+nav li{
+    width: 25%;
+    font-size: 24px;
+    display: inline-block;
+}
+
+aside{
+    float: right;
+    margin:0;
+    width: 25%;
+    height: 700px;
+    padding: 10px;
+}
+
+main article, section{
+    padding: 0 40px;
+    margin: 0 10px;
+    max-width: 75%;
+}
+
+footer{
+    background-color:bisque;
+    font-size: 8px;
+    padding: 10px;
+    text-align: center;
+}
+
+footer li{
+    list-style-type: none;
+}
+
